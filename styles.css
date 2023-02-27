@@ -6,17 +6,17 @@ body {
 }
 
 .top-bubble {
-  position: absolute;
+  position: fixed;
   left: 0;
   top: -50%;
   width: 600px;
 }
 
 .bottom-bubble {
-  position: absolute;
+  position: fixed;
   right: -5%;
-  bottom: -55%;
-  width: 610px;
+  bottom: -50%;
+  width: 600px;
   overflow: hidden;
 }
 p {
